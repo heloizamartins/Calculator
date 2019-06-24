@@ -31,7 +31,7 @@
     </property>
     <widget class="QWidget" name="CalculatorNubers">
      <attribute name="title">
-      <string>Tab 1</string>
+      <string>Number Calculator</string>
      </attribute>
      <widget class="QPushButton" name="_BackSpace">
       <property name="geometry">
@@ -372,7 +372,7 @@
     </widget>
     <widget class="QWidget" name="Resistor">
      <attribute name="title">
-      <string>Tab 2</string>
+      <string>Resistor Calculator</string>
      </attribute>
      <widget class="QLabel" name="label_3">
       <property name="geometry">
@@ -1031,7 +1031,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap>../../../Resistor.png</pixmap>
+       <pixmap>../../../../Documents/GitHub/Calculator/Resistor.png</pixmap>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -1133,7 +1133,7 @@ alternate-background-color: rgb(255, 255, 255);
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>240</x>
         <y>50</y>
         <width>91</width>
         <height>31</height>
@@ -1149,7 +1149,7 @@ alternate-background-color: rgb(255, 255, 255);
      <widget class="QLineEdit" name="_DisplayRes">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>320</x>
         <y>50</y>
         <width>61</width>
         <height>31</height>
@@ -1165,8 +1165,8 @@ alternate-background-color: rgb(255, 255, 255);
      <widget class="QLineEdit" name="_DisplayTol">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>90</y>
+        <x>320</x>
+        <y>100</y>
         <width>61</width>
         <height>31</height>
        </rect>
@@ -1182,7 +1182,7 @@ alternate-background-color: rgb(255, 255, 255);
       <property name="geometry">
        <rect>
         <x>230</x>
-        <y>90</y>
+        <y>100</y>
         <width>91</width>
         <height>31</height>
        </rect>

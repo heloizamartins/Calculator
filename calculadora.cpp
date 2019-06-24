@@ -259,8 +259,8 @@ void Calculadora::ClearAllClicked()
 
 void Calculadora::FirstRingClicked()
 {
-    //ui->_Color2->setStyleSheet(White);
-    //ui->_Color3->setStyleSheet(White);
+    ui->_DisplayColor->setText("");
+    colors = "";
     //Sender returns a pointer to the button pressed
     QPushButton *button = static_cast<QPushButton *>(sender());
     // Get color on button pressed
